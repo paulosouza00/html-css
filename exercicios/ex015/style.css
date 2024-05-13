@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+    background-color: bisque;
+ }
+ h1 {
+    color: darkred;
+    background-color: paleturquoise;
+ }
+ h2 {
+    color: darkslateblue;
+ }
+ p {
+    text-align: justify;
+ }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes e Pseudo elementos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:red;
+            text-decoration: none;
+        }
+        a:hover {
+            color: darkblue;
+            text-decoration: underline;
+        }
+        a:visited {
+            color:darkred;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::after {
+            content: ' [link] ';
+            font-weight: normal;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <UL>
+        <li><a href="https://instagram.com/code_paulo" target="_blank" class="especial">Me segue lá no Instagram</a></li> 
+       <li> <a href="https://github.com/mestrekenobi" target="_blank" class="especial">Me acompanha no Github</a></li>
+    </UL>
+</body>
+</html>
